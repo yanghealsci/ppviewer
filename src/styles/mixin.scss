@@ -1,0 +1,51 @@
+@mixin prefix($property, $value) {
+    #{"-webkit-"+$property}: $value;
+    #{"-moz-"+$property}: $value;
+    #{"-ms-"+$property}: $value;
+    #{"-o-"+$property}: $value;
+    #{$property}: $value;
+}
+
+
+@mixin keyframes($a) {
+    @-o-keyframes #{$a} {
+        @content;
+    }
+    @-webkit-keyframes #{$a} {
+        @content;
+    }
+    @-moz-keyframes #{$a} {
+        @content;
+    }
+    @keyframes #{$a} {
+        @content;
+    }
+}
+
+@mixin animation($content) {
+    animation: $content;
+    -moz-animation: $content;
+    -webkit-animation: $content;
+     -o-animation: $content;
+}
+
+@mixin transform($content) {
+    transform: $content;
+    -moz-transform: $content;
+    -webkit-transform: $content;
+    -o-transform: $content;
+}
+
+@mixin transition($content) {
+    transition: $content;
+    -moz-transition: $content;
+    -webkit-transition: $content;
+    -o-transition: $content;
+}
+
+@mixin transform-origin($content) {
+    transform-origin: $content;
+    -moz-transform-origin: $content;
+    -webkit-transform-origin: $content;
+    -o-transform-origin: $content;
+}

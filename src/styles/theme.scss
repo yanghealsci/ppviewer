@@ -1,0 +1,77 @@
+/*  new theme  */
+$content-width: 950px;
+
+$color-primary: #d283ff;
+$color-second: #fd67a8;
+$color-white: #fff;
+$color-pink-1: #fd6ba3;
+$color-pink-2: #ec7e9a;
+$color-red-1: #ff3a30;
+$color-highLight-background: linear-gradient(-90deg, #ff3a6c 0%, #ff7d96 100%);
+$color-bg-light: #4e4c74;
+$color-bg-dark: #3a385b;
+
+$blue-1: #646afc;
+
+$gray-1: #f8f9fd;
+$gray-2: #e5e6f9;
+$gray-3: #eceff4;
+$gray-4: #aab9ca;
+$gray-5: #54657e;
+$gray-6: #3f4e66;
+$gray-7: #f7f9fd;
+
+/* libs components style */
+$header-color: $gray-6;
+$text-color: $gray-6;
+
+$btn-primary-color: $color-primary;
+$btn-primary-pink-color: $color-pink-1;
+
+$newRule-btn-border-color: #857fcb; 
+
+$icon-color-primary: #e1a5ec;
+$icon-color-gray: #c8d4e0;
+
+$content-background-01: #f8f9fd;
+
+/* table */
+$table-head-bg-color: $gray-2;
+$table-tr-bg-color-01: #fff;
+$table-tr-bg-color-01-hover: $gray-7;
+$table-border-clr: $gray-3;
+$table-font-clr: $gray-6;
+
+/* card */
+$card-bg: $gray-7; 
+$card-clr: #8292a8; 
+$card-box-shadow-color: rgba(99,160,213,0.09); 
+
+/* slider */
+$slider-box-shadow-color: rgba(59,41,255,0.46);
+
+/* 顶部导航栏 start */
+$header-productName-color: $color-white;
+
+$nav-fixHeight-boxShadow-color: rgba(99,160,213,0.09);
+$nav-selected-background: transparent;
+$nav-border-selected-color: #fd6ba3;
+$nav-text-color: $color-white;
+$nav-hover-text-color: #fd6ba3;
+$nav-hover-background: #2F2D4B;
+$nav-primary-hover-background: #5C62F1;
+$nav-backIcon-color: #fff;
+
+/* To Top button start */
+$toTop-bg: $color-primary;
+$toTop-icon-color: $color-white;
+
+/*section Title */
+$section-title-clr: $gray-6;
+$section-title-icon-color: $color-primary;
+$section-title-icon-highlight-color: $color-highLight-background;
+
+/*login page & Error Page*/
+$login-text-color: $color-white;
+$login-bg: $color-pink-1;
+$login-bg-hover: $color-pink-2;

@@ -1,0 +1,17 @@
+# frontend ignore files
+node_modules
+*/node_modules/
+*/npm-debug.log*
+*/access.log
+*.log
+/dist/[^.]*
+!*/dist/ico
+!*/dist/font
+!*/dist/banners
+!*/dist/styles
+.vscode
+
+*/www/[^.]*
+.DS_Store
+*/.DS_Store
+sh.exe.stackdump
