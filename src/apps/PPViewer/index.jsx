@@ -116,7 +116,6 @@ export default class PPViewer extends React.Component {
 
     if (res) {
       const index = _.findIndex(this.state.data, d => d.RS_INDEX === this.state.currItem.RS_INDEX)
-      console.log('yy', index)
       this.setState({
         data: [
           ...this.state.data.slice(0, index),
