@@ -1,4 +1,4 @@
-# ppviewer
+# Property Viewrer
 
 ## Install
 ```
